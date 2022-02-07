@@ -16,6 +16,13 @@
 
     <!-- Style CSS -->
     <link rel="stylesheet" href="style.css">
+        
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/3.0.0/jquery.waypoints.min.js"></script>  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
 
 </head>
 
@@ -35,15 +42,14 @@
                 <div class="col-12">
                     <nav class="navbar navbar-expand-lg">
                         <!-- Logo -->
-                        <a style="font-size: 20px; font-weight: 500; color: crimson;" href="index.html">NETFILMZ</a>                        <!-- Navbar Toggler -->
-
+                        <a style="font-size: 20px; font-weight: 500; color: crimson;" href="index.html">NETFILMZ</a>
                         <!-- Navbar Toggler -->
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#worldNav" aria-controls="worldNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                         <!-- Navbar -->
                         <div class="collapse navbar-collapse" id="worldNav">
                             <ul class="navbar-nav ml-auto">
                                 <li class="nav-item active">
-                                    <a class="nav-link" href="/">Trang chủ <span class="sr-only">(current)</span></a>
+                                   <a class="nav-link" href="/">Trang chủ <span class="sr-only">(current)</span></a>
                                 </li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Các trang</a>
@@ -81,57 +87,34 @@
     <div class="hero-area height-400 bg-img background-overlay" style="background-image: url(img/blog-img/bg4.jpg);"></div>
     <!-- ********** Hero Area End ********** -->
 
-    <section class="contact-area section-padding-100">
+    <div class="regular-page-wrap section-padding-100">
         <div class="container">
             <div class="row justify-content-center">
-                <!-- Contact Form Area -->
                 <div class="col-12 col-md-10 col-lg-8">
-                    <div class="contact-form">
-                        <h5>Liên hệ</h5>
-                        <!-- Contact Form -->
-                        <form action="#" method="post">
-                            <div class="row">
-                                <div class="col-12 col-md-6">
-                                    <div class="group">
-                                        <input type="text" name="name" id="name" required>
-                                        <span class="highlight"></span>
-                                        <span class="bar"></span>
-                                        <label>Nhập tên của bạn</label>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-md-6">
-                                    <div class="group">
-                                        <input type="email" name="email" id="email" required>
-                                        <span class="highlight"></span>
-                                        <span class="bar"></span>
-                                        <label>Nhập email của bạn</label>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="group">
-                                        <textarea name="message" id="message" required></textarea>
-                                        <span class="highlight"></span>
-                                        <span class="bar"></span>
-                                        <label>Nội dung bạn cần gửi</label>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <button type="submit" class="btn world-btn">Gửi</button>
-                                </div>
-                            </div>
-                        </form>
+                    <div class="page-content">
+                      <h2 class="title">Thành viên</h2>
+                      <ul>
+                          <li>
+                              - Lê Thành Đạt
+                          </li>
+                          <li>
+                              - Phạm Quốc Phú
+                          </li>
+                          <li>
+                              - Hoàng Khánh Duy
+                          </li>
+                          <li>
+                              - Nguyễn Phúc Hưng
+                          </li>
+                          <li>
+                              - Lê Vinh Khánh
+                          </li>
+                      </ul>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-
-    <!-- Google Maps: If you want to google map, just uncomment below codes -->
-    <!--
-    <div class="map-area">
-        <div id="googleMap" class="googleMap"></div>
     </div>
-    -->
 
     <!-- ***** Footer Area Start ***** -->
     <footer class="footer-area">
@@ -170,11 +153,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> | Mad
     <script src="js/plugins.js"></script>
     <!-- Active js -->
     <script src="js/active.js"></script>
-    <!-- Google Maps: If you want to google map, just uncomment below codes -->
-    <!--
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAwuyLRa1uKNtbgx6xAJVmWy-zADgegA2s"></script>
-    <script src="js/map-active.js"></script>
-    -->
 
 </body>
 
