@@ -489,9 +489,9 @@ img {
   padding-top: 30px; }
 
 .single-blog-post {
+  padding-left: 20px;
   position: relative;
   z-index: 1;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
   margin-bottom: 5px; }
   .single-blog-post .post-thumbnail {
     position: relative;
