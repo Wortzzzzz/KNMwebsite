@@ -1264,5 +1264,9 @@ textarea:focus ~ .highlight {
 
 /*# sourceMappingURL=style.css.map */
 
+.card-deck div:hover{background-color:lavender;}
 
 ::-webkit-scrollbar{-webkit-appearance:none;width:4px;height:8px}::-webkit-scrollbar-track{background-color:inherit}::-webkit-scrollbar-thumb{background-color:black;border-radius:10px}::-webkit-scrollbar-thumb:hover{background-color:black}::-webkit-scrollbar-thumb:active{background-color:rgba(0,0,0,.45)}
+
+
+/*# team section  */
